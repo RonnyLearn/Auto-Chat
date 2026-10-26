@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "localtools",
+  "version": "${version}",
+  "name": "Auto Chat",
+  "description": "Client-side automatic chat messages with queues, timers, pause controls, and a customizable HUD.",
+  "authors": ["RonnyLearn"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/auto-chat",
+    "sources": "https://github.com/RonnyLearn/Auto-Chat"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.ilaro.localtools.LocalToolsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
